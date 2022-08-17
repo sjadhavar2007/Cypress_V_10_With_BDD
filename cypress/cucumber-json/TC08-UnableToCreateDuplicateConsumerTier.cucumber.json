@@ -1,0 +1,207 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "TC08-CreateEditRole-Unable To Create Duplicate Consumer Tier",
+    "line": 1,
+    "id": "tc08-createeditrole-unable-to-create-duplicate-consumer-tier",
+    "tags": [],
+    "uri": "TC08-UnableToCreateDuplicateConsumerTier.feature",
+    "elements": [
+      {
+        "id": "tc08-createeditrole-unable-to-create-duplicate-consumer-tier;name-field-should-be-compulsory-and-user-should-not-be-able-to-add-the-same-name-as-existing-role-for-consumer-tier",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Name field should be compulsory and User should not be able to add the same name as existing role for Consumer tier",
+        "tags": [
+          {
+            "name": "@BusinessBankingRegression",
+            "line": 5
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "user launches the admin portal",
+            "result": {
+              "status": "passed",
+              "duration": 2403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "user enters valid Email and Password for Reseller and Clicks on Sign in",
+            "result": {
+              "status": "passed",
+              "duration": 4899000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user should login successfully and navigate to home page",
+            "result": {
+              "status": "passed",
+              "duration": 1537000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user should be able to see the Permissions Management text in the page",
+            "result": {
+              "status": "passed",
+              "duration": 2101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "user clicks on the Permissions Management text",
+            "result": {
+              "status": "passed",
+              "duration": 1225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user should be able to see the Permissions Management page displayed",
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "user click on the Feature Tiers text",
+            "result": {
+              "status": "passed",
+              "duration": 254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user should view default badge with its type status",
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should view Add Consumer Tier and Add Business Tier buttons",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "user clicks on the Add Consumer Tier button",
+            "result": {
+              "status": "passed",
+              "duration": 1501000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user should be redirected to Create Consumer Tier page",
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "user enters existing role name for Consumer tier",
+            "result": {
+              "status": "passed",
+              "duration": 546000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "user clicks on the Create button",
+            "result": {
+              "status": "passed",
+              "duration": 1211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "user should see the error message",
+            "result": {
+              "status": "passed",
+              "duration": 41000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "user enters valid role name for Consumer tier",
+            "result": {
+              "status": "passed",
+              "duration": 431000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "user clicks on the Create button",
+            "result": {
+              "status": "passed",
+              "duration": 1667000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "user should be able to see the Permissions Management page displayed",
+            "result": {
+              "status": "passed",
+              "duration": 74000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "user should view the New added Consumer Tier badge",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

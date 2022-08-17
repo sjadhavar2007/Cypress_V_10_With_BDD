@@ -1,0 +1,197 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "TC01-CreateEditRole-Enable Permissions Management",
+    "line": 1,
+    "id": "tc01-createeditrole-enable-permissions-management",
+    "tags": [],
+    "uri": "TC01-EnablePermissionsManagement.feature",
+    "elements": [
+      {
+        "id": "tc01-createeditrole-enable-permissions-management;permission-management-option-should-be-visible-on-the-admin-panel-once-enable-permissions-management-set-to-true-in-the-app-settings",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Permission Management option should be visible on the admin panel once Enable Permissions Management set to true in the App Settings",
+        "tags": [
+          {
+            "name": "@BusinessBankingRegression",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user launches the admin portal",
+            "result": {
+              "status": "passed",
+              "duration": 1389000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user enters valid Email and Password for Reseller and Clicks on Sign in",
+            "result": {
+              "status": "passed",
+              "duration": 4991000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user should login successfully and navigate to home page",
+            "result": {
+              "status": "passed",
+              "duration": 1824000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user should be able to see the Manage Institution text in the page",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user clicks on the Manage Institution text",
+            "result": {
+              "status": "passed",
+              "duration": 2131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user should be open dropdown with the list of institutions",
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "user click on the App Settings from the dropdown",
+            "result": {
+              "status": "passed",
+              "duration": 3136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should be navigated to the App Settings page",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user should be Search Enable Permissions Management and make it true",
+            "result": {
+              "status": "passed",
+              "duration": 843000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user Click on Save button and add settings",
+            "result": {
+              "status": "passed",
+              "duration": 9038000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "user clicks on the Sign Out button",
+            "result": {
+              "status": "passed",
+              "duration": 1352000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "user should be successfully sign out from the application",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "user enters valid Email and Password for Reseller and Clicks on Sign in",
+            "result": {
+              "status": "passed",
+              "duration": 2487000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "user should login successfully and navigate to home page",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "user should be able to see the Permissions Management text in the page",
+            "result": {
+              "status": "passed",
+              "duration": 2059000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "user clicks on the Permissions Management text",
+            "result": {
+              "status": "passed",
+              "duration": 1104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "user should be able to see the Permissions Management page displayed",
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

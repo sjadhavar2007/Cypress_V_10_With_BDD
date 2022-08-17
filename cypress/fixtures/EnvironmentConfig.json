@@ -1,0 +1,28 @@
+[
+    {
+        "Environment": "DEV",
+        "URL": "https://siu-dev2.bankjoy.com/admin",
+        "ReSeller_UserName": "pratik.bhosale+resdev1@tudip.com",
+        "ReSeller_Password": "Test12345!",
+        "Manager_UserName": "pratik.bhosale+mandev1@tudip.com",
+        "Manager_Password": "Test12345!",
+        "User_UserName": "pratik.bhosale+usedev1@tudip.com",
+        "User_Password": "Test12345!"
+    },
+    {
+        "Environment": "STG",
+        "URL": "https://siu-stage.bankjoy.com/admin",
+        "UserName": "",
+        "Password": ""
+    },
+    {
+        "Environment": "UAT",
+        "URL": "https://siu-uat.bankjoy.com/admin",
+        "ReSeller_UserName": "pratik.bhosale+res1@tudip.com",
+        "ReSeller_Password": "Test12345!",
+        "Manager_UserName": "pratik.bhosale+man2@tudip.com",
+        "Manager_Password": "Test12345!",
+        "User_UserName": "pratik.bhosale+use1@tudip.com",
+        "User_Password": "Test12345!"
+    }
+]

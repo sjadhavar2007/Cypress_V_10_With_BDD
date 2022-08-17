@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="34.1060" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-04T12:06:03" tests="0" file="cypress\e2e\CreateEditRole\TC01-EnablePermissionsManagement.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="TC01-CreateEditRole-Enable Permissions Management" timestamp="2022-08-04T12:06:03" tests="1" time="34.0520" failures="0">
+    <testcase name="TC01-CreateEditRole-Enable Permissions Management Permission Management option should be visible on the admin panel once Enable Permissions Management set to true in the App Settings" time="30.5410" classname="Permission Management option should be visible on the admin panel once Enable Permissions Management set to true in the App Settings">
+    </testcase>
+  </testsuite>
+</testsuites>

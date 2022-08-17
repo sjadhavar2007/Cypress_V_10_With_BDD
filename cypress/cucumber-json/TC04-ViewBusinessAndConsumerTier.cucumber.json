@@ -1,0 +1,117 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "TC04-CreateEditRole-View Add Consumer Tier and Add Business Tier buttons",
+    "line": 1,
+    "id": "tc04-createeditrole-view-add-consumer-tier-and-add-business-tier-buttons",
+    "tags": [],
+    "uri": "TC04-ViewBusinessAndConsumerTier.feature",
+    "elements": [
+      {
+        "id": "tc04-createeditrole-view-add-consumer-tier-and-add-business-tier-buttons;user-should-get-the-following-options-1.-add-consumer-tier-2.-add-business-tier",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "User should get the following options 1. Add Consumer Tier 2. Add Business Tier",
+        "tags": [
+          {
+            "name": "@BusinessBankingRegression",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user launches the admin portal",
+            "result": {
+              "status": "passed",
+              "duration": 1160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user enters valid Email and Password for Reseller and Clicks on Sign in",
+            "result": {
+              "status": "passed",
+              "duration": 3196000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user should login successfully and navigate to home page",
+            "result": {
+              "status": "passed",
+              "duration": 1057000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user should be able to see the Permissions Management text in the page",
+            "result": {
+              "status": "passed",
+              "duration": 2040000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user clicks on the Permissions Management text",
+            "result": {
+              "status": "passed",
+              "duration": 995000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user should be able to see the Permissions Management page displayed",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user click on the Feature Tiers text",
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should view default badge with its type status",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "user should view Add Consumer Tier and Add Business Tier buttons",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

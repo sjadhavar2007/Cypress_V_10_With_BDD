@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="13.8140" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-04T12:07:14" tests="0" file="cypress\e2e\CreateEditRole\TC05-AddConsumerTier.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="TC05-CreateEditRole-click on Add Consumer Tier and redirect to Create Consumer Tier page" timestamp="2022-08-04T12:07:14" tests="1" time="13.7990" failures="0">
+    <testcase name="TC05-CreateEditRole-click on Add Consumer Tier and redirect to Create Consumer Tier page Clicking on Add Consumer tier should redirect to Create Consumer Tier Page" time="11.5270" classname="Clicking on Add Consumer tier should redirect to Create Consumer Tier Page">
+    </testcase>
+  </testsuite>
+</testsuites>

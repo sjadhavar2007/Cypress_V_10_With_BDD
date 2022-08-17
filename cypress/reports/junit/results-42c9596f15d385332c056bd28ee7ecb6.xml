@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.9940" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-04T12:06:59" tests="0" file="cypress\e2e\CreateEditRole\TC04-ViewBusinessAndConsumerTier.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="TC04-CreateEditRole-View Add Consumer Tier and Add Business Tier buttons" timestamp="2022-08-04T12:06:59" tests="1" time="10.9670" failures="0">
+    <testcase name="TC04-CreateEditRole-View Add Consumer Tier and Add Business Tier buttons User should get the following options 1. Add Consumer Tier 2. Add Business Tier" time="8.7110" classname="User should get the following options 1. Add Consumer Tier 2. Add Business Tier">
+    </testcase>
+  </testsuite>
+</testsuites>

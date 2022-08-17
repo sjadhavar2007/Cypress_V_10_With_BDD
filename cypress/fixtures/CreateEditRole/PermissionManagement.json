@@ -1,0 +1,15 @@
+{
+    "members": "Members",
+    "permissionsManagement": "Permissions Management",
+    "featureTiers": "Feature Tiers",
+    "businessRoles": "Business Roles",
+    "appSettings": "App Settings",
+    "name": "Enable Permissions Management",
+    "value": "true",
+    "AddConsumerTier": "Add Consumer Tier",
+    "AddBusinessTier": "Add Business Tier",
+    "CreateConsumerTier": "Create Consumer Tier",
+    "existingName": "Test consumer tier",
+    "errorMessage": "This institution already has a Role with that name.",
+    "ValidName": "Testing"
+}

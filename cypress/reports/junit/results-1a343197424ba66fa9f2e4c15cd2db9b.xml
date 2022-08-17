@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.1700" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-08-04T12:06:42" tests="0" file="cypress\e2e\CreateEditRole\TC02-PermissionManagementFeatureAndBusiness.feature" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="TC02-CreateEditRole-Permission Management Feature Tiers And Business Roles" timestamp="2022-08-04T12:06:42" tests="1" time="12.1510" failures="0">
+    <testcase name="TC02-CreateEditRole-Permission Management Feature Tiers And Business Roles Permission management page should have 2 options 1. Feature Tiers 2. Business Roles" time="10.1990" classname="Permission management page should have 2 options 1. Feature Tiers 2. Business Roles">
+    </testcase>
+  </testsuite>
+</testsuites>

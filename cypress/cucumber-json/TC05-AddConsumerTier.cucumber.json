@@ -1,0 +1,127 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "TC05-CreateEditRole-click on Add Consumer Tier and redirect to Create Consumer Tier page",
+    "line": 1,
+    "id": "tc05-createeditrole-click-on-add-consumer-tier-and-redirect-to-create-consumer-tier-page",
+    "tags": [],
+    "uri": "TC05-AddConsumerTier.feature",
+    "elements": [
+      {
+        "id": "tc05-createeditrole-click-on-add-consumer-tier-and-redirect-to-create-consumer-tier-page;clicking-on-add-consumer-tier-should-redirect-to-create-consumer-tier-page",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Clicking on Add Consumer tier should redirect to Create Consumer Tier Page",
+        "tags": [
+          {
+            "name": "@BusinessBankingRegression",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user launches the admin portal",
+            "result": {
+              "status": "passed",
+              "duration": 1277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user enters valid Email and Password for Reseller and Clicks on Sign in",
+            "result": {
+              "status": "passed",
+              "duration": 5044000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user should login successfully and navigate to home page",
+            "result": {
+              "status": "passed",
+              "duration": 1090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user should be able to see the Permissions Management text in the page",
+            "result": {
+              "status": "passed",
+              "duration": 2044000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "user clicks on the Permissions Management text",
+            "result": {
+              "status": "passed",
+              "duration": 1008000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "user should be able to see the Permissions Management page displayed",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "user click on the Feature Tiers text",
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "user should view Add Consumer Tier and Add Business Tier buttons",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "user clicks on the Add Consumer Tier button",
+            "result": {
+              "status": "passed",
+              "duration": 899000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "user should be redirected to Create Consumer Tier page",
+            "result": {
+              "status": "passed",
+              "duration": 27000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
